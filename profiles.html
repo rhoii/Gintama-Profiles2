@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Profile Characters of Gintama">
+    <title>Gintama Profiles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+          <h1>GINTAMA PROFILES</h1>
+          <nav class="main-nav">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="profiles.html">Profiles</a></li>
+              <li><a href="https://github.com/rhoii" target="_blank"><i class="fab fa-github"></i> My GitHub</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+      
+
+    <main>
+        <div class="profile-container">
+            <button class="nav-button prev" onclick="prevSlide()">&#10094;</button>
+            <div class="profile" id="gintoki">
+                <img src="images/gintamaanime2017.jpg" alt="Gintoki Sakata">
+                <div class="profile-content">
+                    <p class="name">Gintoki Sakata</p>
+                    <p>
+                        Gintoki Sakata is the main character of the anime and manga series <strong>Gintama</strong>, created by Hideaki Sorachi. He’s a samurai living in a futuristic version of Edo, where aliens known as Amanto have taken over Japan. Gintoki, known for his silver hair and laid-back attitude, was once a legendary warrior during the Joi Wars, fighting against the Amanto. After the war, he became a freelancer, doing odd jobs to make ends meet.
+                    </p>
+                    <audio controls>
+                        <source src="audio/scared_gintoki.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="button-container">
+                        <button onclick="window.open('https://gintama.fandom.com/wiki/Gintoki_Sakata', '_blank');">LEARN MORE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="profile" id="kagura" style="display: none;">
+                <img src="images/kagura1.jpg" alt="Kagura">
+                <div class="profile-content">
+                    <p class="name">Kagura Yato</p>
+                    <p>
+                        Kagura is a member of one of the strongest and most feared warrior races in the universe. Despite her youthful appearance and innocent demeanor, Kagura possesses incredible physical strength, speed, and combat skills due to her Yato heritage. She has a bright personality, often seen as naive or childlike, but she’s also headstrong, quick to anger, and fiercely protective of her friends. Her appetite is almost insatiable, often eating in large quantities, and she has a comical weakness to sunlight due to her Yato blood.
+                    </p>
+                    <audio controls>
+                        <source src="audio/help me.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="button-container">
+                        <button onclick="window.open('https://gintama.fandom.com/wiki/Kagura', '_blank');">LEARN MORE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="profile" id="shinpachi" style="display: none;">
+                <img src="images/af79f352c02e955ff45e4b90700fb205.jpg" alt="Shinpachi">
+                <div class="profile-content">
+                    <p class="name">Shinpachi Shimura</p>
+                    <p>
+                        Shinpachi is the more grounded, "normal" member of the group, serving as a straight man to the absurd situations around him. He is a kind and responsible young man, often concerned with finances and keeping his friends in line. Shinpachi is highly loyal to Gintoki, whom he views as a mentor and older brother figure. While not as physically strong as Kagura or Gintoki, Shinpachi is skilled in swordsmanship and martial arts, continuing the dojo traditions of his late father.
+                    </p>
+                    <audio controls>
+                        <source src="audio/shinpachi.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="button-container">
+                        <button onclick="window.open('https://gintama.fandom.com/wiki/Shinpachi_Shimura', '_blank');">LEARN MORE</button>
+                    </div>
+                </div>
+            </div>
+            <button class="nav-button next" onclick="nextSlide()">&#10095;</button>
+        </div>
+    </main>
+
+<script src="script.js"></script>
+</body>
+</html>
